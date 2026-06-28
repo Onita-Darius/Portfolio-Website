@@ -1,0 +1,13 @@
+<nav id="navbar">
+    <a href="#" class="navigation" id="home"><i class="fa-regular fa-house fa-lg"></i>Home</a>
+    <a href="#" class="navigation" id="ab_us"><i class="fa-regular fa-circle-user fa-lg"></i>About Me</a>
+    <div class="dropdown">
+        <button class="dropbtn"><i class="fa-regular fa-file fa-lg"></i>Projects</button>
+        <div class="content">
+            <a href="#" class="navigation" id="projects"><i class="fa-regular fa-file fa-lg"></i>Project 1</a>
+            <a href="#" class="navigation" id="project2"><i class="fa-regular fa-file fa-lg"></i>Project 2</a>
+            <a href="#" class="navigation" id="project3"><i class="fa-regular fa-file fa-lg"></i>Project 3</a>
+        </div>
+    </div>
+    <a href="#" class="navigation" id="contact"><i class="fa-regular fa-envelope fa-lg"></i>Contact</a>
+</nav>
