@@ -1,0 +1,37 @@
+.header{
+    background-color: #c7950c;
+    height: 10%;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+#navbar{
+    background-color: #c7950c;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.navigation{
+    margin: 5px;
+    padding: 3px;
+    background-color: #c2920e;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
