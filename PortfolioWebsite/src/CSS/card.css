@@ -1,0 +1,38 @@
+.card {
+    box-sizing: border-box;
+    position: relative;
+    width: 10%;
+    min-width: 230px;
+    height: 375px;
+    padding: 5px;
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+img {
+    box-sizing: border-box;
+    height: 150px;
+    width: 98%;
+    border: 2px solid rgb(97, 97, 97);
+    border-radius: 10px;
+}
+
+.cardTitle {
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cardText {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 5px;
+    text-indent: 20px;
+    background-color: rgb(156, 156, 156);
+    border: 2px solid rgb(97, 97, 97);
+    padding-left: 5px;
+    border-radius: 10px;
+    margin: 5px 10px 5px 5px;
+}

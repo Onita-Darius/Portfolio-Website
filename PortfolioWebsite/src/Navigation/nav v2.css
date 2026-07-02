@@ -1,0 +1,119 @@
+.nav-container {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+
+.nav-v2 {
+    position: fixed;
+    transform: translateX();
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    align-items: center;
+    background-color: oklch(from var(--background) 0.35 c h / 0.6);
+    border-radius: 10px;
+    border: 1px solid oklch(from var(--background) 0.65 c h / 0.20);
+    box-shadow: 0px 1px 5px oklch(from var(--background) 0.6 c h / 0.2);
+}
+.nav-title {
+    flex-shrink: 0;
+    padding: 0.4rem 0.8rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text);
+    margin: 0 10px 0px 10px;
+    width: 30vw;
+}
+
+.nav-title-container {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    gap: 0px;
+}
+.nav-title-container h4 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: oklch(from var(--text-alt) 0.8 c h / 0.8);
+    margin: 0;
+}
+
+.nav-logo-container {
+    display: flex;
+    margin: 0.1rem 0.5rem 0.1rem 0.5rem;
+    margin-left: 1rem;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    justify-content: start;
+    background-color: transparent;
+}
+
+.nav-logo {
+    position: relative;
+    left: -20px;
+    top: -14px;
+    height: 80px;
+    width: 80px;
+    background-color: transparent;
+    border: 0px;
+    pointer-events: none;
+}
+.nav-logo-link {
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+.nav-logo-span {
+    position: relative;
+    top: -87px;
+    left: -6px;
+    height: 52px;
+    width: 52px;
+    background-color: transparent;
+    color: var(--text);
+}
+
+.nav-logo-link:hover .nav-logo-span{
+    background-color: oklch(from var(--secondary) 0.8 c h / 0.1);
+    color: var(--text);
+    box-shadow: 0px 1px 5px oklch(from var(--background) 0.35 c h / 0.6);
+    z-index: -1;
+    border-radius: 15px;
+}
+
+.nav-links-container {
+    position: relative;
+    right: 0px; 
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    justify-content: end;
+    background-color: transparent;
+}
+
+.navigation {
+    font-size: 1rem;
+    font-family: var(--sans);
+    justify-content: end;
+    text-align: center;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    background-color: oklch(from var(--background) 0.6 c h / 0.6);
+    color: var(--text-alt);
+    box-shadow: 0px 1px 5px oklch(from var(--background) 0.6 c h / 0.6);
+    text-decoration: none;
+}
+
+.navigation:hover {
+        background-color: oklch(from var(--secondary) 0.8 c h / 0.8);
+        color: var(--text);
+        box-shadow: 0px 1px 5px oklch(from var(--secondary) 0.8 c h / 0.8);
+}

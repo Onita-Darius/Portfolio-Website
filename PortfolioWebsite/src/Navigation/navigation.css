@@ -35,3 +35,9 @@ a{
 a:hover{
     color: white;
 }
+
+a[aria-current="page"] {
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #c29c35;
+}
