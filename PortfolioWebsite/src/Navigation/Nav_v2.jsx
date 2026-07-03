@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logoNoBg from "../assets/logo NoBG.png";
+import logoNoBg from "../assets/logo-nobg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleUser, faFile, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
