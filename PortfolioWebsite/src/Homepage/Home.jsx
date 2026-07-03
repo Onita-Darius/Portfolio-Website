@@ -1,4 +1,5 @@
 import Nav_V2 from "../Navigation/Nav_v2.jsx";
+import { NavLink } from "react-router-dom";
 import "./home.css"
 
 
@@ -11,7 +12,7 @@ function Homepage () {
             <p className="HomeText">I started learning WebDev with <a className="inlineLinks" href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">The Complete Full-Stack Web Development Bootcamp</a>, then i moved on and 
             started learning Python primarily through <a className="inlineLinks" href="https://www.w3schools.com/python/python_functions.asp">W3Schools</a> and the YouTube channel <a className="inlineLinks" href="https://www.youtube.com/@BroCodez">
             Bro Code</a>.</p>
-            <p className="HomeText">Now that you know a bit about me, why dont you check out some of my <a className="inlineLinks" href="/projects">projects!</a></p>
+            <p className="HomeText">Now that you know a bit about me, why dont you check out some of my <NavLink to="/Projects" className="inlineLinks">projects</NavLink>!</p>
         </div>
     )
 }
