@@ -1,6 +1,6 @@
 import Nav_V2 from "../Navigation/Nav_v2.jsx";
 import Card from "./Card"
-import "../CSS/projects.css"
+import "./projects.css"
 
 function ProjectsPage () {
     return(

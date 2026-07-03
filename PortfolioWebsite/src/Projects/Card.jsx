@@ -1,4 +1,4 @@
-import "../CSS/card.css"
+import "./card.css"
 
 function Card (props) {
     const imgsrc = props.imgsrc

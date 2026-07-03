@@ -9,7 +9,7 @@ function Nav_V2() {
         <div className="nav-container">
             <div className="nav-v2">
                 <div className="nav-logo-container">
-                    <NavLink to="/Home" className="nav-logo-link">
+                    <NavLink to="/" className="nav-logo-link">
                         <img className="nav-logo" src={logoNoBg} alt="About Me"></img>
                         <div className="nav-logo-span"></div>
                     </NavLink> 
