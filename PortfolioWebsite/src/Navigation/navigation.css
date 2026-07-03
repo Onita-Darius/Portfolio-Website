@@ -41,3 +41,14 @@ a[aria-current="page"] {
     border: 2px solid rgb(0, 0, 0);
     background-color: #c29c35;
 }
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .navigation{
+        margin: 5px;
+        padding: 3px;
+        background-color: #c2920e;
+        border: 2px solid black;
+        border-radius: 5px;
+        box-shadow: 0px 1px 5px;
+    }
+}
