@@ -6,6 +6,7 @@ import "./home.css"
 function Homepage () {
     return(
         <div className="HomeContainer">
+            <title>Onita Darius | Home</title>
             <Nav_V2/>
             <h2 className="HomeTitle">Welcome to the home of Onita Darius</h2>
             <p className="HomeText">Hey good to see you, you are now on the main page of my website, here you will find a small portfolio of my projects and personal experience.</p>

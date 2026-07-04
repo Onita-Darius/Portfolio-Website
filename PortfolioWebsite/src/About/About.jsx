@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 function AboutPage () {
     return(
         <div>
+            <title>Onita Darius | About Me</title>
             <Nav_V2/>
             <h1>About Page</h1>
             <p>I'm a Team Lead with experience in customer support and electronics manufacturing who enjoys solving problems, improving processes, and helping others succeed.
