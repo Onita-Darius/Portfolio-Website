@@ -1,0 +1,146 @@
+@media (min-width : 900px) {
+
+    .about-layout {
+        display: grid;
+        grid-template-columns: repeat(6);
+        grid-template-rows: repeat(10);
+        gap: 8px;
+    }
+
+    .about-nav-bar {
+        height: 75px;
+        grid-column: span 6 / span 6;
+        text-indent: 0px;
+    }
+
+    .about-title {
+        grid-column: span 6 / span 6;
+        grid-row-start: 2;
+        & .title{
+            justify-self: center;
+            text-decoration: underline;
+            color:var(--text);
+            margin-bottom: 5px;
+            padding: 2px 5px 12px 5px;
+            border-radius: 10px;
+        }
+        & .subtitle {
+            justify-self: center;
+            color:oklch(from var(--text-alt) 0.8 c h / .8);
+            margin-top: 0;
+            padding: 2px 5px 12px 5px;
+        }
+    }
+
+    .about-summary {
+        grid-column: span 5 / span 5;
+        grid-row: span 2 / span 2;
+        grid-row-start: 3;
+        text-indent: 15px;
+        padding-left: 10px;
+        background-color: oklch(0.9382 0.0197 200 / 15%);
+        border-radius: 10px;
+    }
+
+    .about-workexp {
+        justify-self: center;
+        grid-column: span 5 / span 5;
+        grid-column-start: 1;
+        grid-row-start: 5;
+    }
+
+    .work-exp-1 {
+        grid-column: span 5 / span 5;
+        grid-column-start: 1;
+        grid-row-start: 6;
+        background-color: oklch(0.9382 0.0197 200 / 15%);
+        border-radius: 10px;
+        & h3 {
+            justify-self: center;
+            font-size: x-large;
+            padding: 0px 5px 0px 5px;
+            border-bottom: 3px solid var(--primary);
+            border-radius: 5px;
+            background-color: oklch(from var(--background) l c h);
+            box-shadow: 0px 3px 5px 3px oklch(from var(--primary) l c h / 0.3);
+        }
+
+        & strong {
+            margin-left: 10px;
+            font-size: large;
+            padding: 0px 5px 0px 5px;
+            border-bottom: 3px solid var(--secondary);
+            border-radius: 5px;
+            background-color: oklch(from var(--background) l c h);
+            box-shadow: 0px 3px 5px 3px oklch(from var(--secondary) l c h / 0.3);
+        }
+
+    }
+
+    .work-exp-2 {
+        grid-column: span 5 / span 5;
+        grid-column-start: 1;
+        grid-row-start: 7;
+        background-color: oklch(0.9382 0.0197 200 / 15%);
+        border-radius: 10px;
+        & h3 {
+            justify-self: center;
+            font-size: x-large;
+            padding: 0px 5px 0px 5px;
+            border-bottom: 3px solid var(--primary);
+            border-radius: 5px;
+            background-color: oklch(from var(--background) l c h);
+            box-shadow: 0px 3px 5px 3px oklch(from var(--primary) l c h / 0.3);
+        }
+
+        & strong {
+            margin-left: 10px;
+            font-size: large;
+            padding: 0px 5px 0px 5px;
+            border-bottom: 3px solid var(--secondary);
+            border-radius: 5px;
+            background-color: oklch(from var(--background) l c h);
+            box-shadow: 0px 3px 5px 3px oklch(from var(--secondary) l c h / 0.3);
+        }
+    }
+
+    .sidebar-eucation {
+        grid-row: span 2 / span 2;
+        grid-column-start: 6;
+        grid-row-start: 3;
+        background-color: oklch(0.9382 0.0197 200 / 15%);
+        border-radius: 10px;
+        border: 1px solid var(--primary);
+        & h2 {
+            justify-self: center;
+            font-size: x-large;
+            padding: 0px 5px 0px 5px;
+            border-bottom: 3px solid var(--primary);
+            border-radius: 5px;
+            background-color: oklch(from var(--background) l c h);
+            box-shadow: 0px 3px 5px 3px oklch(from var(--primary) l c h / 0.3);
+        }
+        & h4 {
+            margin-left: 10px;
+            text-indent: 5px;
+        }
+    }
+
+    .sidebar-skills {
+        grid-row: span 3 / span 3;
+        grid-column-start: 6;
+        grid-row-start: 5;
+        background-color: oklch(0.9382 0.0197 200 / 15%);
+        border-radius: 10px;
+        border: 1px solid var(--primary);
+        & h2 {
+            justify-self: center;
+            font-size: x-large;
+            padding: 0px 5px 0px 5px;
+            border-bottom: 3px solid var(--primary);
+            border-radius: 5px;
+            background-color: oklch(from var(--background) l c h);
+            box-shadow: 0px 3px 5px 3px oklch(from var(--primary) l c h / 0.3);
+        }
+}
+}
