@@ -6,11 +6,17 @@ function Card (props) {
     const cardText = props.cardText
 
     return(
-        <div className="card">
-            <img src={imgsrc} alt="thumbnail"></img>
-            <h2 className="cardTitle">{cardTitle}</h2>
-            <p className="cardText">{cardText}</p>
+        <>
+
+        <div className="card project-card" >
+            <img src={imgsrc} className="card-img-top" alt="card thumbnail"/>
+            <div className="card-body">
+                <h5 className="card-title">{cardTitle}</h5>
+                <p className="card-text">{cardText}</p>
+                <a href="#" className="btn btn-primary">Visit Project</a>
+            </div>
         </div>
+        </>
     )
 }
 

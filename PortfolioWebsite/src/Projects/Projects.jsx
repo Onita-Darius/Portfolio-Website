@@ -14,8 +14,8 @@ function ProjectsPage () {
             <Nav_V2/>
             <div className="projectsContainer">
                 <Card imgsrc="src/assets/Tinkers-Ratio-Calculator.png" cardTitle="Tinkers Ratio Calculator" cardText="Lorem ipsum dolor sit amet consectetur adipisicing elit."/>
-                <Card imgsrc="src/assets/BaseIMG.jpg" cardTitle="A 2nd project" cardText="Lorem ipsum dolor sit amet consectetur adipisicing elit."/>
-                <Card imgsrc="src/assets/BaseIMG.jpg" cardTitle="A 2nd project" cardText="Lorem ipsum dolor sit amet consectetur adipisicing elit."/>
+                <Card imgsrc="src/assets/BaseIMG.jpg" cardTitle="A Second Project Title" cardText="Lorem ipsum dolor sit amet consectetur adipisicing elit."/>
+                <Card imgsrc="src/assets/BaseIMG.jpg" cardTitle="A Third Project Title" cardText="Lorem ipsum dolor sit amet consectetur adipisicing elit."/>
             </div>
         </>
     )

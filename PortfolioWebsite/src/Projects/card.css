@@ -1,38 +1,57 @@
-.card {
-    box-sizing: border-box;
-    position: relative;
-    width: 10%;
-    min-width: 230px;
-    height: 375px;
-    padding: 5px;
-    background-color: gray;
-    border: 3px solid black;
-    border-radius: 10px;
-    box-shadow: 10px;
+.project-card {
+    width: 300px;
+    background: oklch(from var(--primary) calc(l - 0.2) c h);
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-img {
-    box-sizing: border-box;
-    height: 150px;
-    width: 98%;
-    border: 2px solid rgb(97, 97, 97);
-    border-radius: 10px;
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35);
 }
 
-.cardTitle {
-    box-sizing: border-box;
-    text-align: center;
-    text-decoration: underline;
+.project-card .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
 }
 
-.cardText {
-    box-sizing: border-box;
-    position: absolute;
-    bottom: 5px;
-    text-indent: 20px;
-    background-color: rgb(156, 156, 156);
-    border: 2px solid rgb(97, 97, 97);
-    padding-left: 5px;
-    border-radius: 10px;
-    margin: 5px 10px 5px 5px;
+.project-card .card-body {
+    padding: 20px;
+    background: oklch(from var(--primary) calc(l - 0.2) c h)
+}
+
+.project-card .card-title {
+    color: var(--text);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-top:12px
+}
+
+.project-card .card-text {
+    color: var(--text);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.project-card .btn {
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+    background-color: var(--secondary);
+    color: var(--text-alt);
+    margin-bottom: 50px;
+}
+
+.project-card .btn:hover {
+    transform: scale(1.05);
 }
